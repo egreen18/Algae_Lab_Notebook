@@ -1,6 +1,6 @@
 %Ethan Green
 %February 2nd, 2020
-function t = ODTUpdate(ti,t)
+function ODTUpdate(ti,t)
 %Updates the t vector for usage in the ODPlot function
 %Takes input ti, the time of the first OD reading; and t, the current
 %vector of OD recording times
