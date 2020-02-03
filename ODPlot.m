@@ -1,4 +1,9 @@
+%Ethan Green
+%February 2nd, 2020
 function ODPlot(t,OD,n)
+%Plots OD reading data for any number of concurrent growth samples
+%Takes inputs t, the vector of all OD sample times; OD, the matrix of all
+%OD absorbance readings; and n, the number of concurrent growth samples
 plot(t,OD(1,:))
 hold on
 leg = strings(1,n);
