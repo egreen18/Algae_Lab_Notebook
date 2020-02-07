@@ -7,5 +7,6 @@ ODnew = zeros(length(batch.key),1);
 for i = 1:length(batch.key)
     ODnew(i) = input("What was the absorbance reading for sample "+batch.key{i}+"?");
 end
+clear ans
 batch.OD = [batch.OD,ODnew];
 end

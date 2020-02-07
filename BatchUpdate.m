@@ -10,6 +10,7 @@ function BatchUpdate(batch)
 %Updating OD matrix
     batch = ODUpdate(batch);
 %Exporting data to workspace
+    clear ans
     assignin('base','batch',batch);
 %Plotting for visualization of updates
     ODPlot(batch);
